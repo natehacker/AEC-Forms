@@ -1,0 +1,35 @@
+{
+    "employees": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "position": "Software Engineer",
+        "salary": 80000
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "position": "Data Scientist",
+        "salary": 90000
+      },
+      {
+        "id": 3,
+        "name": "Bob Johnson",
+        "position": "UX Designer",
+        "salary": 75000
+      },
+      {
+        "id": 4,
+        "name": "Alice Williams",
+        "position": "Project Manager",
+        "salary": 100000
+      }
+    ],
+    "company": {
+      "name": "TechCo",
+      "location": "Silicon Valley",
+      "foundedYear": 2005,
+      "isPublic": true
+    }
+  }
+  
