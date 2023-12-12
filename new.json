@@ -110,4 +110,115 @@
         },
         "version": "2.7.17.1"
       }
+      {
+        "2": {
+          "fields": [
+            {
+              "type": "select",
+              "id": 1,
+              "formId": 3,
+              "label": "Explains factors impacting the delivery of the 10 essential public health services",
+              "adminLabel": "",
+              "isRequired": true,
+              "size": "large",
+              "errorMessage": "",
+              "visibility": "visible",
+              "validateState": true,
+              "inputs": null,
+              "choices": [
+                { "text": "1", "value": "1", "isSelected": false, "price": "" },
+                { "text": "2", "value": "2", "isSelected": false, "price": "" },
+                { "text": "3", "value": "3", "isSelected": false, "price": "" },
+                { "text": "4", "value": "4", "isSelected": false, "price": "" },
+                { "text": "N/A", "value": "0", "isSelected": false, "price": "" }
+              ],
+              "description": "",
+              "allowsPrepopulate": false,
+              "inputMask": false,
+              "inputMaskValue": "",
+              "inputMaskIsCustom": false,
+              "maxLength": "",
+              "inputType": "",
+              "labelPlacement": "",
+              "descriptionPlacement": "",
+              "subLabelPlacement": "",
+              "placeholder": "",
+              "cssClass": "",
+              "inputName": "",
+              "noDuplicates": false,
+              "defaultValue": "",
+              "enableAutocomplete": false,
+              "autocompleteAttribute": "",
+              "conditionalLogic": "",
+              "productField": "",
+              "layoutGridColumnSpan": "",
+              "enablePrice": "",
+              "enableEnhancedUI": 0,
+              "layoutGroupId": "1bedd37e",
+              "multipleFiles": false,
+              "maxFiles": "",
+              "calculationFormula": "",
+              "calculationRounding": "",
+              "enableCalculation": "",
+              "disableQuantity": false,
+              "displayAllCategories": false,
+              "useRichTextEditor": false,
+              "errors": [],
+              "enableChoiceValue": true,
+              "fields": ""
+            }
+          ],
+          "button": {
+            "type": "text",
+            "text": "Submit",
+            "imageUrl": "",
+            "width": "auto",
+            "location": "bottom",
+            "layoutGridColumnSpan": 12,
+            "id": "submit"
+          },
+          "title": "Domain 2 intermediate",
+          "description": "",
+          "version": "2.7.17.1",
+          "id": 3,
+          "markupVersion": 2,
+          "nextFieldId": 3,
+          "useCurrentUserAsAuthor": true,
+          "postContentTemplateEnabled": false,
+          "postTitleTemplateEnabled": false,
+          "postTitleTemplate": "",
+          "postContentTemplate": "",
+          "lastPageButton": null,
+          "pagination": null,
+          "firstPageCssClass": null,
+          "confirmations": [
+            {
+              "id": "6577328e850a0",
+              "name": "Default Confirmation",
+              "isDefault": true,
+              "type": "message",
+              "message": "Thanks for contacting us! We will get in touch with you shortly.",
+              "url": "",
+              "pageId": "",
+              "queryString": ""
+            }
+          ],
+          "notifications": [
+            {
+              "id": "6577328e844da",
+              "isActive": true,
+              "to": "{admin_email}",
+              "name": "Admin Notification",
+              "event": "form_submission",
+              "toType": "email",
+              "subject": "New submission from {form_title}",
+              "message": "{all_fields}"
+            }
+          ],
+          "feeds": {
+            "gravityformsadvancedpostcreation": []
+          }
+        },
+        "version": "2.7.17.1"
+      }
       
